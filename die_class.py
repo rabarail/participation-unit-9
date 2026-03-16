@@ -10,3 +10,8 @@ class Die:
 die = Die()
 for i in range(10):
     print(f"6 sides - Rolling the die ... {die.roll_die()}")
+
+die = Die()
+die.sides = 10
+for i in range(10):
+    print(f"10 sides - Rolling the die ... {die.roll_die()}")
