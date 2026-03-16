@@ -7,6 +7,7 @@ class Die:
     sides = 6
     def roll_die(self):
         return random.randint(1, self.sides)
+    
 die = Die()
 for i in range(10):
     print(f"6 sides - Rolling number:  {die.roll_die()}")
