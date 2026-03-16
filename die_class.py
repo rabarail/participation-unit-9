@@ -15,3 +15,7 @@ die = Die()
 die.sides = 10
 for i in range(10):
     print(f"10 sides - Rolling the die ... {die.roll_die()}")
+die = Die()
+die.sides = 20
+for i in range(10):
+    print(f"20 sides - Rolling the die ... {die.roll_die()}")
