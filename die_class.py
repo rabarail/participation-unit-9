@@ -5,3 +5,5 @@ import random
 
 class Die:
     sides = 6
+    def roll_die(self):
+        return random.randint(1, self.sides)
